@@ -23,22 +23,22 @@
     "build": "yarn build.main; yarn build.module; yarn build.iife; yarn build.types"
   },
   "devDependencies": {
-    "@nju33/prettier": "^0.0.6",
-    "@nju33/tsconfig-main": "^0.0.6",
-    "@nju33/tsconfig-module": "^0.0.6",
-    "@nju33/tsconfig-types": "^0.0.6",
-    "@nju33/tslint": "^0.0.6",
-    "@types/jest": "^23.3.12",
-    "@types/pupa": "^1.0.0",
-    "jest": "^23.6.0",
-    "renovate-config-nju33": "^0.0.1",
-    "rollup": "^1.1.0",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "ts-jest": "^23.10.5",
-    "tslint": "^5.12.1",
-    "typedoc": "^0.14.0",
-    "typescript": "^3.2.2"
+    "@nju33/prettier": "0.0.6",
+    "@nju33/tsconfig-main": "0.0.6",
+    "@nju33/tsconfig-module": "0.0.6",
+    "@nju33/tsconfig-types": "0.0.6",
+    "@nju33/tslint": "0.0.6",
+    "@types/jest": "23.3.12",
+    "@types/pupa": "1.0.0",
+    "jest": "23.6.0",
+    "renovate-config-nju33": "0.0.1",
+    "rollup": "1.1.0",
+    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-node-resolve": "4.0.0",
+    "ts-jest": "23.10.5",
+    "tslint": "5.12.1",
+    "typedoc": "0.14.0",
+    "typescript": "3.2.2"
   },
   "dependencies": {
     "pupa": "^1.0.0"
