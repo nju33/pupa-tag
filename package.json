@@ -10,7 +10,7 @@
   "license": "MIT",
   "files": [
     "dist",
-    "pupa-tag"
+    "pupa-tag.js"
   ],
   "scripts": {
     "prepare": "yarn build",
