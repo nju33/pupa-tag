@@ -61,3 +61,5 @@ const selectById = pupaTag<{id: number}>`select * from foo ${whereBy({
 console.log(selectById());
 // 'select * from foo where id = 123'
 ```
+
+[![Edit pupa-tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/239vvyxy40?module=%2Fsrc%2Findex.ts)
