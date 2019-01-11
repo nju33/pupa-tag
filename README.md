@@ -24,7 +24,7 @@ import desiredName from 'pupa-tag';
 or
 
 ```html
-<script src="https://unpkg.com/@nju33/pupa-tag/pupa-tag.js"></script>
+<script src="https://unpkg.com/pupa-tag/pupa-tag.js"></script>
 <script>
   // Can use the `pupaTag` here.
 </script>
