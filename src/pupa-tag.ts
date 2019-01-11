@@ -2,7 +2,7 @@ import pupa from 'pupa';
 
 /**
  * Create function by the template literal syntax
- * 
+ *
  * @example
  * ```ts
  * pupaTag<{bar: string}>`foo {bar}`({bar: 'bar'});

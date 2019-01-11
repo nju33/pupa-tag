@@ -7,7 +7,7 @@ export default {
     file: './pupa-tag.js',
     format: 'iife',
     name: 'pupaTag',
-    sourceMap: true
+    sourceMap: true,
   },
   plugins: [
     resolve({
@@ -15,7 +15,7 @@ export default {
       main: true,
     }),
     commonjs({
-      include: 'node_modules/**'
-    })
-  ]
+      include: 'node_modules/**',
+    }),
+  ],
 };

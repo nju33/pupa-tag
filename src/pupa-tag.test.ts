@@ -18,7 +18,7 @@ describe('Separation', () => {
     test('${whereBy()}', () => {
       const whereBy = pupaTag<{id: number}>`where id = {id}`;
       const selectById = pupaTag<{id: number}>`select * from foo ${whereBy({
-        id: 123
+        id: 123,
       })}`;
       expect(selectById()).toBe('select * from foo where id = 123');
     });

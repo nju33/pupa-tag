@@ -37,6 +37,11 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
+"@nju33/prettier@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@nju33/prettier/-/prettier-0.0.6.tgz#bd5d632293b9219d926ef708ab26dccbbf3de83d"
+  integrity sha512-uSD8ofg+r6DLqT06rwuA0eb9tkosjKJYztgs4LBmDYxMfvI+R/6KrCorM+XsIG0UNO7NvaxHV0gI7H9akB9qSQ==
+
 "@nju33/tsconfig-base@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@nju33/tsconfig-base/-/tsconfig-base-0.0.6.tgz#f7343bf66d40d72bd84a818589efac13e640829b"
