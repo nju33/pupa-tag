@@ -23,7 +23,7 @@
     "build": "yarn build.main; yarn build.module; yarn build.iife; yarn build.types"
   },
   "devDependencies": {
-    "@nju33/prettier": "0.0.11",
+    "@nju33/prettier": "0.0.18",
     "@nju33/tsconfig-main": "0.0.11",
     "@nju33/tsconfig-module": "0.0.11",
     "@nju33/tsconfig-types": "0.0.11",
