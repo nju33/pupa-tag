@@ -1,7 +1,7 @@
 import pupa from 'pupa';
 
 /**
- * Create function by the template literal syntax
+ * To create function in the template literal syntax using by the pupa.
  *
  * @example
  * ```ts
@@ -9,10 +9,12 @@ import pupa from 'pupa';
  * // bar
  * ```
  */
-export function pupaTag<A extends object>(
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function pupaTag<A extends Record<string | number | symbol, any>>(
   strings: TemplateStringsArray,
   ...placeholders: (Function | string | undefined)[]
 ) {
+  // eslint-disable-next-line @typescript-eslint/no-object-literal-type-assertion
   return (args: A = {} as A) => {
     const result = strings.reduce<string>((acc, str, i) => {
       const placeholder = placeholders[i];

@@ -17,7 +17,7 @@
  * yarn add pupa-tag
  * ```
  */
-import desiredName from 'pupa-tag';
+import appropriateName from 'pupa-tag';
 // e.g.) import sql from 'pupa-tag';
 ````
 
@@ -32,7 +32,7 @@ or
 
 ## Example by TypeScript
 
-Just in one go.
+In the below, definition the `selectById` which is expected passing into arguments `{id: number}`.
 
 ```ts
 const selectById = sql<{id: number}>`select * from foo where id = {id}`;
@@ -40,9 +40,7 @@ console.log(selectById({id: 123}));
 // 'select * from foo where id = 123'
 ```
 
-Also can divide it into serveral. and they are could use in the parent template literal.
-
-In the below example which use the `whereBy` as `function`.
+You could divide into serveral contents. For example in the below, sentence after the `where` is allocated as the `whereBy` variable.
 
 ```ts
 const whereBy = pupaTag<{id: number}>`where id = {id}`;
@@ -51,7 +49,7 @@ console.log(selectById({id: 123}));
 // 'select * from foo where id = 123'
 ```
 
-Also, the `whereBy` would be able to use as its result (it's a string value).
+And also the `whereBy` is function thus you can use its result as `string`. (`({id: number}) => string`).
 
 ```ts
 const whereBy = pupaTag<{id: number}>`where id = {id}`;

@@ -9,13 +9,5 @@ export default {
     name: 'pupaTag',
     sourceMap: true,
   },
-  plugins: [
-    resolve({
-      jsnext: true,
-      main: true,
-    }),
-    commonjs({
-      include: 'node_modules/**',
-    }),
-  ],
+  plugins: [resolve(), commonjs()],
 };
