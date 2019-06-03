@@ -304,7 +304,7 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@nju33/eslint-config@^0.0.26":
+"@nju33/eslint-config@0.0.26":
   version "0.0.26"
   resolved "https://registry.yarnpkg.com/@nju33/eslint-config/-/eslint-config-0.0.26.tgz#3f32b820248159ebb8e27dd1ac7ad0ab796b014f"
   integrity sha512-f34V3Z9CJY9JA+LOOUOGwvGg678SMjuxayOtTUGupZGV80a3Nvkulv2ayPYsgc+nzNTTyTOfOt0Dp+IWxwfY3Q==
@@ -318,7 +318,7 @@
     eslint-plugin-react "^7.12.4"
     eslint-plugin-vue "^5.2.2"
 
-"@nju33/prettier@^0.0.26":
+"@nju33/prettier@0.0.26":
   version "0.0.26"
   resolved "https://registry.yarnpkg.com/@nju33/prettier/-/prettier-0.0.26.tgz#718266f2b8bed8935cc8bc0542e39196655596b3"
   integrity sha512-Il89mHr8+wNrKLXXK+WeCQ1flYUfhK4nhRy5aJcLUaqnorVoypSiSB7ORxRQnN0gMlXvhrDpujamvPFH4uwHOQ==
@@ -1379,7 +1379,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@^5.16.0:
+eslint@5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -3127,7 +3127,7 @@ npm-packlist@^1.1.6:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
 
-npm-run-all@^4.1.5:
+npm-run-all@4.1.5:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.5.tgz#04476202a15ee0e2e214080861bff12a51d98fba"
   integrity sha512-Oo82gJDAVcaMdi3nuoKFavkIHBRVqQ1qvMb+9LHk/cF4P6B2m8aP04hGf7oL6wZ9BuGwX1onlLhpuoofSyoQDQ==
@@ -3445,7 +3445,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.17.1:
+prettier@1.17.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.1.tgz#ed64b4e93e370cb8a25b9ef7fef3e4fd1c0995db"
   integrity sha512-TzGRNvuUSmPgwivDqkZ9tM/qTGW9hqDKWOE9YHiyQdixlKbv7kvEqsmDPrcHJTKwthU774TQwZXVtaQ/mMsvjg==
