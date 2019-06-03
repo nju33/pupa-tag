@@ -1,7 +1,7 @@
 {
   "name": "pupa-tag",
   "description": "A tag using by the pupa",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "dist/main/index.js",
   "types": "dist/types/index.d.ts",
   "module": "dist/module/index.js",
