@@ -40,7 +40,7 @@
     "renovate-config-nju33": "0.0.1",
     "rollup": "1.15.5",
     "rollup-plugin-commonjs": "10.0.0",
-    "rollup-plugin-node-resolve": "5.0.1",
+    "rollup-plugin-node-resolve": "5.0.2",
     "ts-jest": "24.0.2",
     "tslint": "5.17.0",
     "typedoc": "0.14.2",
