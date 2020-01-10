@@ -43,7 +43,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "ts-jest": "24.3.0",
     "tslint": "5.20.1",
-    "typedoc": "0.15.7",
+    "typedoc": "0.15.8",
     "typescript": "3.7.4"
   },
   "dependencies": {
