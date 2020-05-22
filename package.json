@@ -44,7 +44,7 @@
     "ts-jest": "24.3.0",
     "tslint": "5.20.1",
     "typedoc": "0.17.7",
-    "typescript": "3.9.2"
+    "typescript": "3.9.3"
   },
   "dependencies": {
     "pupa": "^2.0.0"
